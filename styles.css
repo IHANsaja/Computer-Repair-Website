@@ -170,6 +170,65 @@ a {
     font-family: "Noto Serif Sinhala", serif;
 }
 
+.socials{
+    position: fixed;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.socials .wa,
+.socials .fb,
+.socials .mail,
+.socials .x{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.socials .wa{
+    background-color: #25D366;
+}
+
+.socials .wa i{
+    color: white;
+    font-size: 40px;
+}
+
+.socials .fb{
+    background: linear-gradient(0deg,  #0165E1, #17A9FD);
+}
+
+.socials .fb i{
+    color: white;
+    font-size: 40px;
+}
+
+.socials .mail{
+    background: linear-gradient(0deg,  #BB001B, #EA4335);
+}
+
+.socials .mail i{
+    color: white;
+    font-size: 40px;
+}
+
+.socials .x{
+    background-color: #17A9FD;
+}
+
+.socials .x i{
+    color: white;
+    font-size: 40px;
+}
+
 .Home {
     background-color: rgba(2, 0, 65, 0.7);
     width: 55%;
