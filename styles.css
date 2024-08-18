@@ -14,9 +14,14 @@
 }
 
 body {
+    height: 100vh;
     font-family: 'Poppins', sans-serif;
-    background-color: var(--background_col);
     color: white;
+    background-image: url('assets/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 a {
@@ -25,7 +30,7 @@ a {
 }
 
 .nav {
-    position: sticky;
+    position: sticky !important;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -179,6 +184,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    z-index: 1000;
 }
 
 .socials .wa,
@@ -272,6 +278,71 @@ a {
 .Home p.eng {
     word-spacing: 1.5px;
     text-align: center;
+}
+
+.callnow {
+    background-color: #bbc4d6;
+    position: relative;
+    width: 100vw;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+    height: 30vh;
+    overflow: visible; 
+}
+
+.callnow .words {
+    display: flex;
+    flex-direction: column;
+}
+
+.callnow .words p {
+    color: black;
+    text-align: center;
+    font-size: 25px;
+}
+
+.callnow .words p.head{
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.callnow img.repair {
+    position: relative; 
+    z-index: 2; 
+    transform: translateY(-30%); 
+    margin-left: 250px;
+    overflow: visible;
+    height: auto; 
+}
+
+.callnow img.logo{
+    border-radius: 100%;
+    margin-right: 250px;
+}
+
+.service-header{
+    position: relative;
+    align-self: center;
+    left: 50%;
+    transform: translateX(-20%);
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.cards{
+    max-width: 100vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 @media screen and (max-width: 1300px) {
