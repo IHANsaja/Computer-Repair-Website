@@ -306,8 +306,43 @@ a {
     align-items: center;
     margin-top: 150px;
     height: 30vh;
-    overflow: visible; 
+    overflow: visible;
     gap: 30px;
+    flex-shrink: 0; /* Ensures the element does not shrink below its content size */
+}
+
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+    .callnow {
+        flex-direction: column; /* Stack elements vertically */
+        height: auto; /* Let height adjust based on content */
+        padding: 20px; /* Add padding for spacing */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .callnow {
+        flex-direction: column; /* Stack elements vertically */
+        height: auto; /* Let height adjust based on content */
+        padding: 15px; /* Adjust padding for smaller screens */
+        gap: 20px; /* Reduce gap between elements */
+    }
+    .callnow .words p {
+        font-size: 15px;
+    }
+    
+    .callnow .words p.head{
+        font-size: 50px !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .callnow {
+        flex-direction: column; /* Stack elements vertically */
+        height: auto; /* Let height adjust based on content */
+        padding: 10px; /* Adjust padding for smaller screens */
+        gap: 15px; /* Further reduce gap between elements */
+    }
 }
 
 .callnow .words {
@@ -474,6 +509,9 @@ a {
         font-weight: 400;
         font-size: 18px;
     }
+    .service-header{
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 1024px){
@@ -506,5 +544,15 @@ a {
     }
     .footer{
         flex-direction: column;
+    }
+    .service-header{
+        font-size: 20px;
+        text-align: center;
+        transform: translateX(-60%);
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .callnow{
+        max-width: 100vw;
     }
 }
