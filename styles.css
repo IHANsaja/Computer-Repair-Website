@@ -311,6 +311,14 @@ a {
     flex-shrink: 0; /* Ensures the element does not shrink below its content size */
 }
 
+.blue{
+    width: 100% !important;
+}
+
+.blue img{
+    width: 100%;
+}
+
 /* Media Queries */
 @media screen and (max-width: 1024px) {
     .callnow {
@@ -385,6 +393,13 @@ a {
     text-decoration: underline;
     margin-top: 50px;
     margin-bottom: 50px;
+    color: #FF0000;
+}
+
+.service-header p{
+    -webkit-text-stroke: 1px white;
+    -webkit-text-fill-color: red;
+    filter: drop-shadow(3px 3px 0px #1f67ff);
 }
 
 .cards{
