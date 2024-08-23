@@ -321,14 +321,14 @@ a {
     position: relative; 
     z-index: 2; 
     transform: translateY(-30%); 
-    margin-left: 180px;
+    margin-left: 10%;
     overflow: visible;
     height: auto; 
 }
 
 .callnow img.logo{
     border-radius: 100%;
-    margin-right: 180px;
+    margin-right: 10%;
 }
 
 .service-header{
