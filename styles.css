@@ -296,6 +296,7 @@ a {
     margin-top: 150px;
     height: 30vh;
     overflow: visible; 
+    gap: 30px;
 }
 
 .callnow .words {
@@ -318,14 +319,14 @@ a {
     position: relative; 
     z-index: 2; 
     transform: translateY(-30%); 
-    margin-left: 250px;
+    margin-left: 180px;
     overflow: visible;
     height: auto; 
 }
 
 .callnow img.logo{
     border-radius: 100%;
-    margin-right: 250px;
+    margin-right: 180px;
 }
 
 .service-header{
