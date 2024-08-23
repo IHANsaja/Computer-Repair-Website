@@ -194,7 +194,7 @@ a {
 }
 
 .socials .x{
-    background-color: #17A9FD;
+    background-color: #FF0000;
 }
 
 .socials .x i{
@@ -237,6 +237,15 @@ a {
     font-size: 20px;
     font-weight: 500;
     width: 100vw;
+}
+
+.email button{
+    background-color: white;
+    border: none;
+    width: 100vw;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 /*Home*/
