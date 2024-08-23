@@ -242,13 +242,13 @@ a {
 .Home {
     background-color: rgba(2, 0, 65, 0.7);
     width: 55%;
-    height: 30vh;
+    height: 350px;
     min-height: 200px; 
     max-height: 50vh; 
     display: flex;
     justify-content: center;
     flex-direction: column;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     border-radius: 50px;
     position: relative;
     left: 50%;
