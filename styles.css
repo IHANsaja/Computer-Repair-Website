@@ -317,6 +317,7 @@ a {
 
 .blue img{
     width: 100%;
+    height: 75px;
 }
 
 /* Media Queries */
@@ -391,14 +392,13 @@ a {
     transform: translateX(-25%);
     font-size: 40px;
     text-decoration: underline;
+    font-weight: 600;
     margin-top: 50px;
     margin-bottom: 50px;
-    color: #FF0000;
+    color: white;
 }
 
 .service-header p{
-    -webkit-text-stroke: 1px white;
-    -webkit-text-fill-color: red;
     filter: drop-shadow(3px 3px 0px #1f67ff);
 }
 
