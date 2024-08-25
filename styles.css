@@ -389,7 +389,7 @@ a {
     align-self: center;
     left: 50%;
     max-width: 100vw;
-    transform: translateX(-25%);
+    transform: translateX(-30%);
     font-size: 40px;
     text-decoration: underline;
     font-weight: 600;
